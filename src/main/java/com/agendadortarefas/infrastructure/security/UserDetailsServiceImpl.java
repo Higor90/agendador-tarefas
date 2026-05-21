@@ -3,8 +3,6 @@ package com.agendadortarefas.infrastructure.security;
 
 import com.agendadortarefas.bussines.dto.UsuarioDTO;
 import com.agendadortarefas.infrastructure.security.client.UsuarioClient;
-import com.javanauta.usuario.infrastructure.entity.Usuario;
-import com.javanauta.usuario.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
